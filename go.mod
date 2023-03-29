@@ -1,4 +1,4 @@
-module github.com/Ricardolv/vacanies
+module github.com/Ricardolv/vacancies
 
 go 1.20
 
