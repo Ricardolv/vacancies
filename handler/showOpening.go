@@ -13,7 +13,7 @@ func ShowOpeningHandler(ctx *gin.Context) {
 	id := ctx.Query("id")
 	if len(id) == 0 {
 		sendError(ctx, http.StatusBadRequest,
-			errParamIsRequest("id", "queryParameter").Error())
+			errParamIsRequired("id", "queryParameter").Error())
 		return
 	}
 
