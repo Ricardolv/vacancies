@@ -1,6 +1,6 @@
 package router
 
-import ( 
+import (
 	"github.com/gin-gonic/gin"
 )
 
